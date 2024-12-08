@@ -46,4 +46,5 @@ public class ScoreManager : MonoBehaviour
         Score += 4000;
         ScoreText.text = Score.ToString() + "  POINTS";
     }
+
 }
