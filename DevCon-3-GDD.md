@@ -14,7 +14,7 @@ Break all the brick layers before running out of balls. If you run out of balls,
 ---
 
 ## **2. Objective Statement**
-**What question are you trying to answer with your prototype? Why?**  
+- **What question are you trying to answer with your prototype? Why?**  
 Is it possible to take the physics of pachinko and the gameplay of brickbreaker and merge them into one?
 By having pegs that cause complex geometry, and a drop with good placement, one can create an interesting gameplay loop by breaking bricks that give points. This rewards the player while also creating suspense through the complex movement of the various balls.
 ---
@@ -34,7 +34,7 @@ What real-world information are you leveraging to inform object scale, weight, f
 ---
 
 ## **5. Citations**
-Cite all resources used in planning and development:  
+- Cite all resources used in planning and development:  
 In planning we looked a lot at games like Pachinko and Brickbreaker and decided that it was feasible to incorperate the two into our project. So shout out to those games.
 ---
 
