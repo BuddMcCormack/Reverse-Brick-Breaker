@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class SpawnObject : MonoBehaviour
 {
+    // Define anything that's a ball, making lots of public variables for prototyping.
     public GameObject CannonBall;
     public GameObject TennisBall;
     public GameObject DodgeBall;
@@ -13,19 +14,24 @@ public class SpawnObject : MonoBehaviour
     public GameObject ChickenBall;
     public GameObject HorseBall;
 
+    // Define a public ball limit so variables can be edited easily.
     public int CannonBallCount = 5;
     public int TennisBallCount = 10;
     public int DodgeBallCount = 15;
     public int MetalBallCount = 8;
     public int GlassBallCount = 8;
+
+    // Movement Variables
     public float Movespeed = 8f;
     bool canMove = true;
     public float LimitLeft = -7.20f;
     public float LimitRight = 7.20f;
+
+    // A funny horse ball variable, lastResort is a bool which determines if you've run out of balls.
     bool lastResort = false;
 
     
-
+    // Make it so the object can't go through the defined enviroment.
     public void OnCollisionEnter(Collision other)
     {
         if (!other.gameObject.CompareTag("Environment")) return;
@@ -35,6 +41,8 @@ public class SpawnObject : MonoBehaviour
 
     void Update()
     {
+
+        // Defines when the player can move, Horizontal ( A,D leftarrow,righarrow ) axis moves the object to a new X position.
         if (canMove == true)
         {
 
@@ -57,6 +65,7 @@ public class SpawnObject : MonoBehaviour
             transform.position = newPos;
         }
 
+        // All the balls instatiated with keybinds and counting how many balls have been dropped from a defined limit.
         if (Input.GetKeyDown(KeyCode.Q) && CannonBallCount > 0)
         {
 
@@ -92,6 +101,8 @@ public class SpawnObject : MonoBehaviour
             GlassBallCount--;
         }
 
+        // " Last Resort ", a secret button which spawns bouncy horses which act like balls.
+
         if (Input.GetKeyDown(KeyCode.H) && lastResort == true)
         {
             Vector3 horseOffset = new Vector3(0, -1, 0);
@@ -99,11 +110,14 @@ public class SpawnObject : MonoBehaviour
 
         }
 
+        // Determines if lastResort is active.
+
         if (CannonBallCount < 1 && TennisBallCount < 1 && DodgeBallCount < 1 && MetalBallCount < 1 && GlassBallCount < 1)
         {
             lastResort = true;
         }
 
+        // Super secret chicken button, spawns infinite bouncy chickens which act like balls.
         if (Input.GetKeyDown(KeyCode.C))
         {
 
