@@ -105,15 +105,15 @@ Each ball has unique gameplay properties:
   - Heavy
   - Falls quickly
   - Minimal bounce.  
-  
-  **Setup**:  
+
+### **Setup**
+
   Movement :
   (A) Left
   (LeftArrow) Left
   (D) Right
- (RightArrow) Right
- 
- Balls :
+  (RightArrow) Right
+  Balls :
    (Q) Cannon Balls = 5
    (W) Tennis Balls = 10
    (E) Dodge Balls = 15
@@ -121,3 +121,19 @@ Each ball has unique gameplay properties:
    (T) Glass Balls = 8
    (H) Last Resort =∞ ( after all balls have been used )
    (C) Secret Chicken Button = ∞
+
+### **Playtesting Feedback and Design Response**
+
+   **FB = Feedback
+   DR = Design Response**
+
+   **FB** - Balls were too small
+ **DR** - _( The balls were fixed by being scaled up each by the same increment, the board was also rearranged for better player experience. )_
+ **FB** - It felt really good, the physics were accurate to the objects they were representing
+ **DR** - _( Continued to use the same physical metrics going into final build. )_
+**FB** - Reverse brick breaker is an interesting idea and potentially entertaining idea
+ **DR** - _( Designed the game to be more exciting, playing off of the physics simulation aspect of the game. )_
+**FB** -Randomness undermines character agency, so having different categories of balls with different amounts of each ball would be a good way to add back the agency. 
+ **DR** - _( Made a set amount of each ball instead of random balls. )_
+
+
