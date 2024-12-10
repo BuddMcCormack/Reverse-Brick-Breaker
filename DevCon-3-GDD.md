@@ -43,25 +43,25 @@ By having pegs that cause complex geometry, and a drop with good placement, one 
 
 ## **4. Metric Research and References**
 
-- **Naval Cannon Ball = Cannon Ball**  
-  Size: 5.5 in  
-  Mass: 24 lbs  
-
-- **Professional Tennis Ball = Tennis Ball**  
-  Size: 2.6 in  
-  Mass: 0.126 lbs  
-
-- **Gymnasium-Grade Dodge Ball = Dodge Ball**  
-  Size: 8.5 in  
-  Mass: 0.90 lbs  
-
-- **Full Hollow Steel Ball = Metal Ball**  
-  Size: 12 in  
-  Mass: 8.81 lbs  
-
-- **Feng Shui Crystal Ball = Glass Ball**  
-  Size: 1.5 in  
-  Mass: 0.299 lbs  
+  **Naval Cannon Ball = Cannon Ball**
+  - Size = 5.5in
+  - Mass = 24lbs
+  
+  **Professional Tennis Ball = Tennis Ball**
+  - Size = 2.6in
+  - Mass = 0.126lbs ( converted from grams )
+  
+  **Gymnasium Grade Dodge Ball = Dodge Ball**
+  - Size = 8.5in
+  - Mass = 0.90lbs ( converted from grams )
+  
+  **Full Hollow Steel Ball = Metal Ball** 
+  - Size = 12in
+  - Mass = 8.81lbs
+  
+  **Feng Shui Crystal Ball = Glass Ball**
+  - Size = 1.5in
+  - Mass = 0.299lbs ( converted from grams ) 
 
 ---
 
